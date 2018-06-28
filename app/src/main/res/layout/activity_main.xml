@@ -15,14 +15,26 @@
       android:layout_marginTop="16dp"
       android:text="QQ消息气泡"
       />
-
-  <!--<com.shengxing.bezierfamily.View.MessageBubble-->
-      <!--android:layout_width="match_parent"-->
-      <!--android:layout_height="match_parent"-->
-      <!--android:background="@android:color/transparent"-->
-      <!--/>-->
-  <com.shengxing.bezierfamily.View.WaveView
+  <RelativeLayout
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-    />
+
+      >
+    <com.shengxing.bezierfamily.View.BezierViewPager.DragBaseCircle
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+    <!--<com.shengxing.bezierfamily.View.MessageBubble-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:clipChildren="false"-->
+    <!--/>-->
+  </RelativeLayout>
+  <!--<com.shengxing.bezierfamily.View.WaveView-->
+  <!--android:layout_width="match_parent"-->
+  <!--android:layout_height="match_parent"-->
+  <!--/>-->
 </LinearLayout>

@@ -7,7 +7,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Point;
-import android.graphics.PointF;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
@@ -22,8 +21,6 @@ import android.view.animation.LinearInterpolator;
 public class WaveView extends View {
   private Paint mPaint;
   private Path mPath;
-  private PointF start, end;
-  private int controlx, controly;
   private int mScreenW, mScreenH;
   private int mOffset;
 
